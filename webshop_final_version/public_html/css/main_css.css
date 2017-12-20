@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+img[alt="Logo brand"] {
+    height: 100%;
+}
+.navbar-header a {
+    padding: 0;
+}
+.page_container {
+    margin-top: 70px;
+}
+.cart_container {
+    margin-top: 70px;
+}
+.alert {
+    position: absolute;
+    bottom: 5px;
+    left: 10%;
+    width: 80%;
+    z-index: 1000;
+}
