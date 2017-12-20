@@ -1,3 +1,10 @@
+$(document).ready(function() {
+    $("li.dropdown").hover(
+	function() {$(this).find('.dropdown-menu').stop(true, true).delay(50).slideDown(200);}, 
+	function() {$(this).find('.dropdown-menu').stop(true, true).delay(50).slideUp(200);
+    });
+});
+
 var app = angular.module('webshop', ['ui.bootstrap']);
 app.controller('webshop_ctrl', function($scope, $window, $http, $log, $uibModal) {
     var vm = this;
